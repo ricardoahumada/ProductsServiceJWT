@@ -9,17 +9,14 @@ import org.springframework.boot.test.web.server.LocalServerPort;
 import org.springframework.http.*;
 import org.springframework.test.context.jdbc.Sql;
 
-import java.net.URI;
 import java.net.URISyntaxException;
-import java.util.Arrays;
-import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 // TODO: uncomment and implement methods
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @Sql("classpath:data_testing.sql")
-public class ProductServiceTestRestTemplate {
+class ProductService_RestTemplate_Test {
     // @Value(value = "${local.server.port}")
     @LocalServerPort
     private int port;
