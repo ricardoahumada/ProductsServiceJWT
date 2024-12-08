@@ -20,4 +20,4 @@
 mvn clean test
 
 ## Generate package
-mvn clean test -DargLine=-DWSNSHELL_HOME=yourvalue
+mvn clean package
