@@ -12,9 +12,9 @@
 
 ### On windows
 
-- set DB_URL="jdbc:h2:mem:productsdb"
-- set DB_USERNAME="sa"
-- set DB_PASSWORD="password"
+- set DB_URL=jdbc:h2:mem:productsdb
+- set DB_USERNAME=sa
+- set DB_PASSWORD=password
 
 ## Test
 mvn clean test
